@@ -8,7 +8,7 @@ from influxdb import InfluxDBClient
 
 host = '127.0.0.1'
 username = 'admin'
-password = 'VMware1!'
+password = 'yourpassword'
 
 client = InfluxDBClient(host=host, port=8086, username=username, password=password)
 client.switch_database('stats')
